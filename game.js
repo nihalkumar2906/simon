@@ -10,8 +10,10 @@ var level = 0;
 
 $("h1").click(function() {
   if (!started) {
-    nextSequence();
     started = true;
+    setTimeout(function() {
+      nextSequence();
+    }, 500);
   }
 });
 
