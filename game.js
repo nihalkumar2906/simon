@@ -1,3 +1,4 @@
+alert("HOW TO PLAY: In each level, a random color is highlighted. For example, Assume blue gets highlighted in level 1. Then, the user should press the blue button. In the next level, Assume yellow gets highlighted. So, the user should now press the blue button again and then the yellow button. And the game continues so on till the user presses the wrong button.");
 
 var buttonColours = ["red", "blue", "green", "yellow"];
 
@@ -9,11 +10,8 @@ var level = 0;
 
 $("h1").click(function() {
   if (!started) {
-    alert("HOW TO PLAY: In each level, a random color is highlighted. For example, Assume blue gets highlighted in level 1. Then, the user should press the blue button. In the next level, Assume yellow gets highlighted. So, the user should now press the blue button again and then the yellow button. And the game continues so on till the user presses the wrong button.");
-    setTimeout(function() {
-      nextSequence();
-      started = true;
-    }, 500);
+    nextSequence();
+    started = true;
   }
 });
 
