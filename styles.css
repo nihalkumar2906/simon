@@ -6,7 +6,7 @@ body {
 footer {
   color: #fff;
   font-family: sans-serif;
-  margin-top: 3%;
+  margin-top: 4rem;
 }
 
 #level-title {
@@ -15,7 +15,7 @@ footer {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
   line-height: 1.5;
-  margin: 5%;
+  margin: 4rem auto 2rem;
 }
 
 .container {
